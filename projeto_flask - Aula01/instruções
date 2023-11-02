@@ -1,0 +1,21 @@
+1 - Salve em um local a sua escolha em seu computador.
+
+2 - Crie um nova virtual env.
+
+python -m venv .venv
+
+3 - Libere seu windows para ativarmos a virtual env.
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+4 - Ative seu ambiente virtual.
+
+.\.venv\Scripts\activate
+
+Comando para desativar caso necessário.
+
+deactivate
+
+5 - Reinstale o Flask.
+
+pip install flask
